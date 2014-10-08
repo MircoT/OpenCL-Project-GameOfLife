@@ -12,8 +12,3 @@ INCLUDE_DIRECTORIES( ${PROJECT_SOURCE_DIR}/src )
 ADD_EXECUTABLE( OpenCL_exe ${PROJECT_SOURCE_DIR}/src/main.cpp )
 
 TARGET_LINK_LIBRARIES( OpenCL_exe ${OPENCL_LIBRARIES} )
-
-ADD_CUSTOM_COMMAND( TARGET OpenCL_exe
-    				POST_BUILD
-    				COMMAND OpenCL_exe
-    				WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/src)  # The kernel file is in the source folder

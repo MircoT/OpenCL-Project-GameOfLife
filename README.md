@@ -16,7 +16,7 @@ Special thanks to [Gabriele](https://github.com/Gabriele91) for the support abou
 
 ## How to build
 
-Use CMake to create and build the project or create a project yourself using the sources in the src directory. Remember that the main program require kernel.cl file, because is loaded at running time and you have to manage the OpenCL stuff anyway.
+Use CMake to create and build the project or create a project yourself using the sources in the src directory. Remember to set the working directory of the project on src folder, or copy the kernel in the same directory of the binary because the main program require kernel.cl file, is loaded at running time and of course you have to manage the OpenCL stuff anyway.
 
 ## Documentation
 
