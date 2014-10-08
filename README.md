@@ -14,6 +14,14 @@ Special thanks to [Gabriele](https://github.com/Gabriele91) for the support abou
   * [Nvidia Cuda](https://developer.nvidia.com/cuda-zone)
   * [AMD APP-SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/)
 
+## How to build
+
+Use CMake to create and build the project or create a project yourself using the sources in the src directory. Remember that the main program require kernel.cl file, because is loaded at running time and you have to manage the OpenCL stuff anyway.
+
+## Documentation
+
+To do...
+
 ## License
 
 The MIT License (MIT)
