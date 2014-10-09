@@ -24,7 +24,7 @@ Use CMake to create and build the project or create a project yourself using the
 
 ## Credits
 
-CMake module for OpenCL was found here: https://gitorious.org/findopencl .
+CMake module for OpenCL was found here: https://gitorious.org/findopencl.
 
 ## License
 
