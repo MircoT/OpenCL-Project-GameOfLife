@@ -20,7 +20,7 @@ Use CMake to create and build the project or create a project yourself using the
 
 ## Documentation
 
-To do...
+[Project informations and considerations](https://github.com/MircoT/OpenCL-Project-GameOfLife/blob/master/DOCUMENTATION.md).
 
 ## Credits
 
