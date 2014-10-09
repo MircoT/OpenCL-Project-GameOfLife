@@ -17,8 +17,8 @@ class Matrix
 public:
     
 	Matrix(size_t w, size_t h)
-    :w(w)
-    ,h(h)
+        :w(w)
+        ,h(h)
 	{
 		matrix.resize(w*h, (T) 0);
 	}
@@ -69,20 +69,6 @@ std::ostream& operator<<(std::ostream& os, const Matrix<T> &matrix)
 	}
 	return os;
 };
-
-/*template<>
- std::ostream& operator<<(std::ostream& os, const Matrix<unsigned char> &matrix)
- {
- for (size_t row = 0; row != matrix.h; ++row)
- {
- for (size_t column = 0; column != matrix.w; ++column)
- {
- os << (int) matrix(column, row);
- }
- os << std::endl;
- }
- return os;
- };*/
 
 inline int modulo(unsigned long a, unsigned long b)
 {
@@ -164,8 +150,8 @@ public:
     }
     
     GameOfLife(int width, int height)
-    : matrix(width, height)
-    , buffer(width, height)
+        : matrix(width, height)
+        , buffer(width, height)
     {
     }
     
